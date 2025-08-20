@@ -1,0 +1,48 @@
+
+p{  font-size: 32px;
+    color: purple;}
+p{
+    font-family: monospace;
+}
+p{
+    background-color: coral;
+}
+h1{border-style: dashed purple 100px;
+    border-width: 1 rem 1 rem 1 rem; 
+    width: 35%;
+    padding: 0.5rem;
+    color: blue;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{border-style: dashed pink 100px;
+    border-color: aquamarine;
+    width: 30%;
+    color: blue;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.first{
+    border: double blue 10px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    outline-style: double purple -100px;
+}
+.circle{
+    border-color: blueviolet;
+    border-width:10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-style:double;
+    border-radius: 50px;
+    margin: 3rem auto;
+    height: 50px;
+    width: 50px;
+    background: pink;
+}
+p{
+text-align: right;
+line-height:1.125;
+letter-spacing: 0.1em;
+color: black;
+}
