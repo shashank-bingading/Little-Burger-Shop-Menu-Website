@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shashank Singh">
+    <meta name="description" content="A website for my little shop">
+    <title>Neil's Little Burger Shop</title>
+    <link rel="icon" type="image/x-icon" href="burger.png">
+    <link rel="stylesheet" href="css/styling.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">🍔Neil's Little Burger Shop🍔</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/HTML_CSS/Project.html#Menu">Menu</a>
+                </li>
+                <li>
+                    <a href="/HTML_CSS/Project.html#Opening_Hours">Opening Hours</a>
+                </li>
+                <li>
+                    <a href="Special_festive_offers.html">Special Festive Offers</a>
+                </li>
+                    <li>
+                        <a href="/HTML_CSS/Project.html#about">About</a>
+                    </li>
+                    <li>
+                        <a href="/HTML_CSS/Project.html">Home</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <h1 class="form__h1">
+        Our Contact form
+     </h1> 
+     <form action="https://httpbin.org/get" method="get" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">
+                This a little form through which you can get in touch with us.
+            </legend>
+            <p class="form__p">
+                <label for="name" class="form__label">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" class="form__input">
+            </p>
+            <p class="form__p">
+                <label for="email" class="form__label">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Enter Your email" class="form__input">
+            </p>
+            <p class="form__p">
+                <label for="message" class="form__label">Send us a message...</label>
+                <br>
+                <textarea name="message" id="message" rows="10" cols="30" placeholder="type something here.." class="form__textarea">
+                </textarea>
+            </p>
+        </fieldset>
+        <article class="article">
+        <button type="submit" class="form__button">Submit</button>
+        <button type="reset"class="form__button">Reset</button>
+    </article>
+     </form>
+
+    </main>
+    <hr>
+    <footer class="footer">
+        <span class="nowrap">Copyright &copy;</span>
+        <span class="nowrap">🍔 Neil's Little Burger Shop</span>
+    </footer>
+</body>
+</html>
